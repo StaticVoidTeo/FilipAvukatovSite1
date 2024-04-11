@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   
+   <title>Portfolio WebSite</title>
+    
+   <link rel="stylesheet" href="style.css"> 
+   <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet"> 
+</head>
+  <body>
+    
+    <header>
+      <div class="logo"><span>F</span>ilip.</div>
+      <ul class="navlist">
+        <li><a href="#home" style="--i:1;">Home</a></li>
+        <li><a href="#about" style="--i:2;">About</a></li>
+        <li><a href="#skills" style="--i:3;">Services</a></li>
+        <li><a href="#services" style="--i:4;">Skills</a></li>
+        <li><a href="#portfolio" style="--i:5;">Portfolio</a></li>
+        <li><a href="#contact" style="--i:6;">Contact</a></li>     
+      </ul>    
+      <div id="menu-icon" class="bx bx-menu">
+    </header> 
+
+    <section id="home" class="home">
+      <div class="home-content scroll-scale">
+        <h1>Hi! I'm Filip Avukatov</h1>  
+        <div class="change-text">
+          <h3>And I'm</h3>
+          <h3>
+            <span class="word">Game&nbsp;Developer</span>
+            <span class="word">Full&nbsp;Stack&nbsp;Developer</span>
+            <span class="word">Competitive&nbsp;Programmer</span>
+            <span class="word">Basketball&nbsp;Player</span>      
+          </h3>       
+        </div>
+          
+        <p>
+            I'm individual programmer, so that means that I work alone.
+            I am mostly focused on the game development, but I also work
+            on the Web development, as well I solve C++ problems on mendo.mk,
+            and play Basketball contantly.
+        </p>  
+
+        <div class="info-box">
+          <div class="email-info">
+            <h5>Email :</h5>    
+            <span>avukatov.filip@gmail.com</span>
+          </div>    
+        </div>
+
+        <div class="btn-box">
+          <a href="#" class="btn">Download CV</a>
+          <a href="#" class="btn">Hire Me!</a>
+        </div>
+
+        <div class="social-icons">
+          <a href="#"><i class="bx bxl-instagram"></i></a>
+          <a href="#"><i class="bx bxl-youtube"></i></a>
+          <a href="#"><i class="bx bxl-pinterest"></i></a>
+        </div>
+
+      </div>       
+
+      <div class="home-image scroll-scale"></div>
+        <div class="img-box">
+          <img src="img/FilipAvukatovvv.jpg">  
+        </div>    
+
+        <div class="liquid-shape">
+          <svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" id="blobSvg">
+            <path fill="#12F7FF">
+              <animate attributeName="d"
+                dur="20000ms"
+                repeatCount="indefinite"
+                values="
+                M418,300Q424,350,386.5,386Q349,422,299.5,426Q250,430,211.5,406.5Q173,383,135,361Q97,339,94,294.5Q91,250,85.5,201Q80,152,119,121Q158,90,204,62Q250,34,301,54Q352,74,400.5,104.5Q449,135,430.5,192.5Q412,250,418,300Z;
+                M413.5,294Q402,338,367,365Q332,392,291,411Q250,430,191,442.5Q132,455,105.5,402Q79,349,69.5,299.5Q60,250,83,208.5Q106,167,131,127.5Q156,88,203,73.5Q250,59,291,83Q332,107,371.5,132Q411,157,418,203.5Q425,250,413.5,294Z;
+                M480.63865,307.7165Q451.09063,365.433,410.31526,411.20294Q369.53989,456.97289,309.76995,457.92486Q250,458.87684,200.38497,439.61232Q150.76995,420.34779,93.94926,396.22463Q37.12858,372.10147,58.67119,311.05074Q80.21379,250,102.49187,213.55345Q124.76995,177.10689,134.6096,122.44655Q144.44926,67.78621,197.22463,82.16305Q250,96.53989,312.65763,65.6739Q375.31526,34.8079,398.933,93.01627Q422.55074,151.22463,466.3687,200.61232Q510.18667,250,480.63865,307.7165Z;
+                M472.77575,311.67648Q462.57355,373.35296,404.66545,395.97794Q346.75734,418.60292,298.37867,424.08086Q250,429.5588,200.05515,426.19116Q150.1103,422.82352,128.16179,378.06983Q106.21329,333.31615,94.19488,291.65807Q82.17648,250,78.61395,199.73528Q75.05143,149.47056,107.43747,104.06983Q139.82352,58.6691,194.91176,64.68013Q250,70.69116,308.55515,58.73528Q367.1103,46.7794,408.89708,90.18013Q450.68385,133.58086,466.8309,191.79043Q482.97794,250,472.77575,311.67648Z;
+                M422.51152,302.09623Q430.32413,354.19245,390.14687,388.57597Q349.96961,422.95948,299.98481,425.98481Q250,429.01013,199.01013,427.48987Q148.02026,425.96961,98.79374,395.82274Q49.56723,365.67587,49.45074,307.83794Q49.33426,250,55.2431,195.54558Q61.15194,141.09116,101.56584,102.02532Q141.97974,62.95948,195.98987,46.68739Q250,30.41529,288.70258,72.85819Q327.40516,115.3011,382.76336,128.1151Q438.12155,140.9291,426.41023,195.46455Q414.6989,250,422.51152,302.09623Z;
+                M431.77036,283.85504Q367.19052,317.71008,369.76139,389.89577Q372.33226,462.08145,311.16613,435.07248Q250,408.06351,197.60423,420.52117Q145.20847,432.97883,133.39415,378.55292Q121.57984,324.12702,103.43488,287.06351Q85.28992,250,55,185.03175Q24.71008,120.06351,88.24022,99.90635Q151.77036,79.74919,200.88518,78.60262Q250,77.45605,302.45766,73Q354.91532,68.54395,367.84446,121.52117Q380.77359,174.49839,438.5619,212.24919Q496.3502,250,431.77036,283.85504Z;
+                M402.1828,289.46237Q385.92473,328.92473,367.17742,374.7043Q348.43011,420.48387,299.21505,435.73656Q250,450.98925,210.02151,419.72581Q170.04301,388.46237,140.14516,359.45699Q110.24731,330.45161,63.95699,290.22581Q17.66667,250,43.90323,198.17204Q70.13979,146.34409,110.95699,113.44624Q151.77419,80.54839,200.8871,56.0914Q250,31.63441,296.65054,59.5914Q343.30108,87.54839,394.19355,112.40323Q445.08602,137.25806,431.76344,193.62903Q418.44086,250,402.1828,289.46237Z;
+                M418,300Q424,350,386.5,386Q349,422,299.5,426Q250,430,211.5,406.5Q173,383,135,361Q97,339,94,294.5Q91,250,85.5,201Q80,152,119,121Q158,90,204,62Q250,34,301,54Q352,74,400.5,104.5Q449,135,430.5,192.5Q412,250,418,300Z;
+                "
+                >
+              </animate>
+            </path>
+          </svg>
+        </div>
+
+        <div class="liquid-shape">
+          <svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" id="blobSvg">
+            <path fill="#12F7FF">
+              <animate attributeName="d"
+                dur="20000ms"
+                repeatCount="indefinite"
+                values="
+                M418,300Q424,350,386.5,386Q349,422,299.5,426Q250,430,211.5,406.5Q173,383,135,361Q97,339,94,294.5Q91,250,85.5,201Q80,152,119,121Q158,90,204,62Q250,34,301,54Q352,74,400.5,104.5Q449,135,430.5,192.5Q412,250,418,300Z;
+                M413.5,294Q402,338,367,365Q332,392,291,411Q250,430,191,442.5Q132,455,105.5,402Q79,349,69.5,299.5Q60,250,83,208.5Q106,167,131,127.5Q156,88,203,73.5Q250,59,291,83Q332,107,371.5,132Q411,157,418,203.5Q425,250,413.5,294Z;
+                M480.63865,307.7165Q451.09063,365.433,410.31526,411.20294Q369.53989,456.97289,309.76995,457.92486Q250,458.87684,200.38497,439.61232Q150.76995,420.34779,93.94926,396.22463Q37.12858,372.10147,58.67119,311.05074Q80.21379,250,102.49187,213.55345Q124.76995,177.10689,134.6096,122.44655Q144.44926,67.78621,197.22463,82.16305Q250,96.53989,312.65763,65.6739Q375.31526,34.8079,398.933,93.01627Q422.55074,151.22463,466.3687,200.61232Q510.18667,250,480.63865,307.7165Z;
+                M472.77575,311.67648Q462.57355,373.35296,404.66545,395.97794Q346.75734,418.60292,298.37867,424.08086Q250,429.5588,200.05515,426.19116Q150.1103,422.82352,128.16179,378.06983Q106.21329,333.31615,94.19488,291.65807Q82.17648,250,78.61395,199.73528Q75.05143,149.47056,107.43747,104.06983Q139.82352,58.6691,194.91176,64.68013Q250,70.69116,308.55515,58.73528Q367.1103,46.7794,408.89708,90.18013Q450.68385,133.58086,466.8309,191.79043Q482.97794,250,472.77575,311.67648Z;
+                M422.51152,302.09623Q430.32413,354.19245,390.14687,388.57597Q349.96961,422.95948,299.98481,425.98481Q250,429.01013,199.01013,427.48987Q148.02026,425.96961,98.79374,395.82274Q49.56723,365.67587,49.45074,307.83794Q49.33426,250,55.2431,195.54558Q61.15194,141.09116,101.56584,102.02532Q141.97974,62.95948,195.98987,46.68739Q250,30.41529,288.70258,72.85819Q327.40516,115.3011,382.76336,128.1151Q438.12155,140.9291,426.41023,195.46455Q414.6989,250,422.51152,302.09623Z;
+                M431.77036,283.85504Q367.19052,317.71008,369.76139,389.89577Q372.33226,462.08145,311.16613,435.07248Q250,408.06351,197.60423,420.52117Q145.20847,432.97883,133.39415,378.55292Q121.57984,324.12702,103.43488,287.06351Q85.28992,250,55,185.03175Q24.71008,120.06351,88.24022,99.90635Q151.77036,79.74919,200.88518,78.60262Q250,77.45605,302.45766,73Q354.91532,68.54395,367.84446,121.52117Q380.77359,174.49839,438.5619,212.24919Q496.3502,250,431.77036,283.85504Z;
+                M402.1828,289.46237Q385.92473,328.92473,367.17742,374.7043Q348.43011,420.48387,299.21505,435.73656Q250,450.98925,210.02151,419.72581Q170.04301,388.46237,140.14516,359.45699Q110.24731,330.45161,63.95699,290.22581Q17.66667,250,43.90323,198.17204Q70.13979,146.34409,110.95699,113.44624Q151.77419,80.54839,200.8871,56.0914Q250,31.63441,296.65054,59.5914Q343.30108,87.54839,394.19355,112.40323Q445.08602,137.25806,431.76344,193.62903Q418.44086,250,402.1828,289.46237Z;
+                M418,300Q424,350,386.5,386Q349,422,299.5,426Q250,430,211.5,406.5Q173,383,135,361Q97,339,94,294.5Q91,250,85.5,201Q80,152,119,121Q158,90,204,62Q250,34,301,54Q352,74,400.5,104.5Q449,135,430.5,192.5Q412,250,418,300Z;
+                "
+                >
+              </animate>
+            </path>
+          </svg>
+        </div>
+      </div>
+
+    </section>
+
+    <section id="about" class="about">
+      <div class="img-about scroll-scale">
+        <img src="img/AvukatovFilip.png">
+        <div class="info-about1">
+          <span>2+</span>
+          <p>Years of Experience</p>
+        </div>  
+
+        <div class="info-about2">
+          <span>20+</span>
+          <p>Finished Projects</p>
+        </div>
+
+        <div class="info-about3">
+          <span>1000+</span>
+          <p>Happy Clients</p>
+        </div>
+      </div>
+
+        <div class="about-content scroll-scale">
+            <span>Let me intorduce myself</span>
+            <h2>About Me</h2>
+            <h3>A story of good</h3>
+            <p>
+              and interested junior programmer for the game development,
+              web development, (mostly full stack), as well, interested about
+              the competitive programming(CP), for now on mendo, only for the programming language C++.
+              And outside of the computer science world, I'm also interested about basketball.
+              Thanks a lot for the time spent to read the followed section!  
+            </p>
+
+            <div class="btn-box">
+              <a href="#" class="btn">Read More!</a>
+            </div>
+        </div>  
+
+    </section>
+
+    <section id="services" class="services">
+      
+      <div class="main-text scroll-scale">
+        <span>What I will do for you</span>
+        <h2>Our Services</h2>
+      </div>  
+
+      <div class="section-services scroll-bottom">
+        <div class="service-box">
+          <i class='bx bxs-layer service-icon'></i>
+          <h3>Game Developer</h3>
+          <p>
+            When I was young, I was playing a lot of video games,
+            I found them interesting, and attractive. 
+            As the years pass, the time changes, the people change. 
+            So I realized and started to thinkg better, and it clicked
+            that it was a good time to change my activities.
+            I've started with the game development using the pip pygame which is 
+            one from many pips with it's modules, which uses the syntax of python.
+            For now I have made 3 simple games, and I'm interested at it a lot.
+            I'm also studying C++, so using it's libraries I can also make from it
+            some interesting and simple video games when I'll finish learning pygame.
+          </p>
+          <div class="btn-box service-btn">
+            <a href="#" class="btn">Read More</a>
+          </div>  
+        </div>  
+
+        <div class="service-box">
+          <i class='bx bxs-layer service-icon'></i>
+          <h3>Full Stack Developer</h3>
+          <p>
+            Nowadays people are often so much on the internet, and 
+            are using massivly it's content, so that's the main thing that makes
+            me ambitious to study for it, and make projects that are helpfull for the people with it.
+            I'm studying now CSS advanced and JavaScript, I have done some courses about them as well as for HTML.
+            I'm also studying PHP, which is in some ways different than these three languages, but it's 
+            good that it uses the same logic. I'm saying this as the level of knowledge of it.
+            I have made some projects with HTML, CSS, and JavaScript, including this portfolio, and 
+            their power cannot be imagined even in our dreams. 
+          </p>
+          <div class="btn-box service-btn">
+            <a href="#" class="btn">Read More</a>
+          </div>  
+        </div> 
+
+        <div class="service-box">
+          <i class='bx bxs-layer service-icon'></i>
+          <h3>Competitive Programmer</h3>
+          <p>
+            I've started CP(Competitive Programming), mostly to develop better logical thinking, 
+            mathematical, and make it easier for me to solve programming problems.
+            I started with mendo, and I'm still solving problems on it. As of my interest, in the near future 
+            I will move probably to Code Forces, and try to solve problems and compete with people arround the world
+            not only from Macedonia, like it's now with mendo.
+            CP requires a good understanging of English, and mostly maths(Algebra, Number theory, Combinatorics and modular arithmetic).
+            So I'm also studying that stuff.  
+          </p>
+          <div class="btn-box service-btn">
+            <a href="#" class="btn">Read More</a>
+          </div>  
+        </div> 
+
+        <div class="service-box">
+          <i class='bx bxs-layer service-icon'></i>
+          <h3>Basketball Player</h3>
+          <p>
+            I've started to play basketball five years ago, and I still have the interest to continue with it,
+            as well as the ambition. I think that is good to be physicaly actve, if not with the sport, it could be gym,
+            athletics, marathons, etc.
+            I've started in a public club with other kids, when I was young, and as the time goes,
+            I reached to play for the team of my town called "SOKOLI", and it's good for now, and I would like to 
+            continue with basketball in the future, and to be more successful.
+            I'll continue to grind, and maybe some day I'll be famous basketball player, who knows, but again 
+            all depends on our work.
+          </p>
+          <div class="btn-box service-btn">
+            <a href="#" class="btn">Read More</a>
+          </div>  
+        </div>
+      </div>  
+    </section>
+
+    <section id="skills" class="skills">
+      <div class="main-text">
+        <span>tehnical and professional</span>
+        <h2>My Skills</h2>
+      </div>
+
+        <div class="skill-main">
+          <div class="skill-left scroll-scale">
+            <h3>Tehnical Skills</h3>
+            
+            <div class="skill-bar">
+              <div class="info">
+                <p>HTML</p>
+                <p>90%</p>
+              </div>  
+              <div class="bar">
+                <span class="html"></span>
+              </div>
+            </div>  
+            
+            <div class="skill-bar">
+              <div class="info">
+                <p>CSS</p>
+                <p>67%</p>
+              </div>  
+              <div class="bar">
+                <span class="css"></span>
+              </div>
+            </div>
+
+            <div class="skill-bar">
+              <div class="info">
+                <p>JavaScript</p>
+                <p>62%</p>
+              </div>  
+              <div class="bar">
+                <span class="javascript"></span>
+              </div>
+            </div>
+
+            <div class="skill-bar">
+              <div class="info">
+                <p>C++</p>
+                <p>54%</p>
+              </div>  
+              <div class="bar">
+                <span class="c++"></span>
+              </div>
+            </div>
+
+            <div class="skill-bar">
+              <div class="info">
+                <p>Python</p>
+                <p>87%</p>
+              </div>  
+              <div class="bar">
+                <span class="python"></span>
+              </div>
+            </div>
+
+            <div class="skill-bar">
+              <div class="info">
+                <p>PHP</p>
+                <p>49%</p>
+              </div>  
+              <div class="bar">
+                <span class="php"></span>
+              </div>
+            </div>
+
+          </div>           
+          <div class="skill-right scroll-scale">
+            <h3>Professional Skills</h3>
+            <div class="professional">
+              
+              <div class="box">
+                <div class="circle" data-dots="80" data-percent="90"></div>
+                <div class="text">
+                  <big>92%</big>
+                  <small>Productivity</small>
+                </div>
+              </div>
+
+              <div class="box">
+                <div class="circle" data-dots="80" data-percent="90"></div>
+                <div class="text">
+                  <big>89%</big>
+                  <small>Creativity</small>
+                </div>
+              </div>
+
+              <div class="box">
+                <div class="circle" data-dots="80" data-percent="90"></div>
+                <div class="text">
+                  <big>85%</big>
+                  <small>Project Maagement</small>
+                </div>
+              </div>
+
+              <div class="box">
+                <div class="circle" data-dots="80" data-percent="90"></div>
+                <div class="text">
+                  <big>95%</big>
+                  <small>Focused</small>
+                </div>
+              </div>
+
+            </div>
+          </div>  
+      </div>
+    </section>
+
+    <section id="portfolio" class="portfolio">
+      <div class="main-text scroll-scale">
+        <span>What I will do for you</span>
+        <h2>Latest Project</h2>
+      </div>
+
+      <div class="container">
+        <div class="filter-buttons scroll-scale">
+          <button class="button" data-filter="all">All</button>
+          <button class="button" data-filter=".product">Product</button>
+          <button class="button" data-filter=".inter">Interacting</button>
+          <button class="button" data-filter=".web">Web App</button>
+        </div>
+
+        <div class="portfolio-gallery scroll-bottom">
+          <div class="port-box mix product">
+            <div class="port-image">
+              <img src="img/1.jpg">
+            </div>
+            <div class="port-content">
+              <h3>Game Developer</h3>
+              <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+              </p>
+              <a href="#"><i class="bx bx-link-external"></i></a>
+            </div>
+          </div>
+
+          <div class="port-box mix product">
+            <div class="port-image">
+              <img src="img/2.jpg">
+            </div>
+            <div class="port-content">
+              <h3>Game Developer</h3>
+              <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+              </p>
+              <a href="#"><i class="bx bx-link-external"></i></a>
+            </div>
+          </div>
+
+          <div class="port-box mix inter">
+            <div class="port-image">
+              <img src="img/3.jpg">
+            </div>
+            <div class="port-content">
+              <h3>Game Developer</h3>
+              <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+              </p>
+              <a href="#"><i class="bx bx-link-external"></i></a>
+            </div>
+          </div>
+
+          <div class="port-box mix inter">
+            <div class="port-image">
+              <img src="img/4.jpg">
+            </div>
+            <div class="port-content">
+              <h3>Game Developer</h3>
+              <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+              </p>
+              <a href="#"><i class="bx bx-link-external"></i></a>
+            </div>
+          </div>
+
+          <div class="port-box mix inter">
+            <div class="port-image">
+              <img src="img/5.jpg">
+            </div>
+            <div class="port-content">
+              <h3>Game Developer</h3>
+              <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+              </p>
+              <a href="#"><i class="bx bx-link-external"></i></a>
+            </div>
+          </div>
+
+          <div class="port-box mix web">
+            <div class="port-image">
+              <img src="img/6.jpg">
+            </div>
+            <div class="port-content">
+              <h3>Game Developer</h3>
+              <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+              </p>
+              <a href="#"><i class="bx bx-link-external"></i></a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+    
+    <section id="contact" class="contant">
+      <div class="main-text scroll-scale">
+        <span>ask me question</span>
+        <h2>Contact Me</h2>
+      </div>
+
+      <form action="#" class="scroll-bottom">
+        <input type="text" placeholder="Your Name">
+        <input type="text" placeholder="Your Email">
+        <input type="text" placeholder="Your Address">
+        <input type="text" placeholder="Phone Number">
+        <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+        <div class="btn-box formBtn">
+          <button type="button" class="btn">Send Message</button>
+        </div>
+      </form>  
+    </section>
+
+    <footer>
+      <p class="scroll-scale">Copyright &copy; 2024 by PorfolioWebsiteFA || All Rights Reserved.</p>
+      <a href="home"><i class='bx bx-up-arrow-alt'></i></a>
+    </footer>
+
+    <script src="mixitup.min.js"></script>
+    <script src="script.js"></script>    
+  </body>
+</html>
